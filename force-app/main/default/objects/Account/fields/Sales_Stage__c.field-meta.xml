@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Need to make contact</fullName>
+                <default>false</default>
+                <label>Need to make contact</label>
+            </value>
+            <value>
+                <fullName>Follow-up Required</fullName>
+                <default>false</default>
+                <label>Follow-up Required</label>
+            </value>
+            <value>
+                <fullName>Requested Meeting</fullName>
+                <default>false</default>
+                <label>Requested Meeting</label>
+            </value>
+            <value>
+                <fullName>Reached Out</fullName>
+                <default>false</default>
+                <label>Reached Out</label>
+            </value>
+            <value>
+                <fullName>Meeting Booked</fullName>
+                <default>false</default>
+                <label>Meeting Booked</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Leave BAU</fullName>
+                <default>false</default>
+                <label>Leave BAU</label>
+            </value>
+            <value>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+                <label>Engaged</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

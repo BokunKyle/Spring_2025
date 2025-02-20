@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Email__c</fullName>
+    <description>Used in CS case management for DP email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used in CS case management for DP email</inlineHelpText>
+    <label>Support Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

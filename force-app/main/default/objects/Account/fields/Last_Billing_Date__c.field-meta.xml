@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Billing_Date__c</fullName>
+    <description>Date that the Account was last billed (not necessarily when they paid the bill)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date that the Account was last billed (not necessarily when they paid the bill)</inlineHelpText>
+    <label>Last Billing Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>
