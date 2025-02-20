@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>saas_Apps__c</fullName>
+    <description>A comma separated list of apps the supplier has enabled on Bokun&apos;s App Store.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A comma separated list of apps the supplier has enabled on Bokun&apos;s App Store.</inlineHelpText>
+    <label>saas Apps</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

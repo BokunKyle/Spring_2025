@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Service_Type__c</fullName>
+    <description>Product/service category offered by the Vendor/Supplier</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product/service category offered by the Vendor/Supplier</inlineHelpText>
+    <label>Vendor Service Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tour operator</fullName>
+                <default>false</default>
+                <label>Tour operator</label>
+            </value>
+            <value>
+                <fullName>Museum</fullName>
+                <default>false</default>
+                <label>Museum</label>
+            </value>
+            <value>
+                <fullName>Activities</fullName>
+                <default>false</default>
+                <label>Activities</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+                <label>Accommodation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

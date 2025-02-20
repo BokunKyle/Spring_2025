@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChargeBee_Payment_Type__c</fullName>
+    <description>Displays the Payment Type on File for this Vendor on the ChargeBee platform.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Displays the Payment Type on File for this Vendor on the ChargeBee platform.</inlineHelpText>
+    <label>ChargeBee Payment Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

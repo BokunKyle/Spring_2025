@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viator_Supplier_Code__c</fullName>
+    <description>Account&apos;s Viator ID, if provided</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account&apos;s Viator ID, if provided</inlineHelpText>
+    <label>Viator Supplier ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

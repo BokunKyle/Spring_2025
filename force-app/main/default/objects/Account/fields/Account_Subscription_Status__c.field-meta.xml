@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Subscription_Status__c</fullName>
+    <description>Subscription status of the Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subscription status of the Account</inlineHelpText>
+    <label>Account Subscription Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid Subscription</fullName>
+                <default>false</default>
+                <label>Paid Subscription</label>
+            </value>
+            <value>
+                <fullName>Trial Subscription</fullName>
+                <default>false</default>
+                <label>Trial Subscription</label>
+            </value>
+            <value>
+                <fullName>Scheduled Churn</fullName>
+                <default>false</default>
+                <label>Scheduled Churn</label>
+            </value>
+            <value>
+                <fullName>Churned</fullName>
+                <default>false</default>
+                <label>Churned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
