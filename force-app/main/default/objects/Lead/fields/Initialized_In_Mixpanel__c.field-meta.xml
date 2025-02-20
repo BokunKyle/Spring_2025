@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initialized_In_Mixpanel__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, this lead has already been initialized in Mixpanel</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true, this lead has already been initialized in Mixpanel</inlineHelpText>
+    <label>Initialized In Mixpanel</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

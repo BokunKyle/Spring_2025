@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Outbound Sales</fullName>
+        <default>false</default>
+        <label>Outbound Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Management</fullName>
+        <default>false</default>
+        <label>Account Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Support</fullName>
+        <default>false</default>
+        <label>Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing Plan Upsell</fullName>
+        <default>false</default>
+        <label>Pricing Plan Upsell</label>
+    </customValue>
+    <customValue>
+        <fullName>Churn</fullName>
+        <default>false</default>
+        <label>Churn</label>
+    </customValue>
+    <customValue>
+        <fullName>Reactivation</fullName>
+        <default>false</default>
+        <label>Reactivation</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>All valid task subtypes</description>
+    <masterLabel>Activity Subtypes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

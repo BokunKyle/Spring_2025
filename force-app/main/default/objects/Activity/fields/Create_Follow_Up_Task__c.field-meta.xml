@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Follow_Up_Task__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked, triggers a flow to create a follow-up task</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, triggers a flow to create a follow-up task</inlineHelpText>
+    <label>Create Follow-Up Task</label>
+    <type>Checkbox</type>
+</CustomField>

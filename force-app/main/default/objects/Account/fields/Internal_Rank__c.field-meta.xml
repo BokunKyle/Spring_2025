@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Rank__c</fullName>
+    <description>Account Management Internal Ranking</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account Management Internal Ranking</inlineHelpText>
+    <label>Internal Rank</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Top 10</fullName>
+                <default>false</default>
+                <label>Top 10</label>
+            </value>
+            <value>
+                <fullName>Top 20</fullName>
+                <default>false</default>
+                <label>Top 20</label>
+            </value>
+            <value>
+                <fullName>Top 50</fullName>
+                <default>false</default>
+                <label>Top 50</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
