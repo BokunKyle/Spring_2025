@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Company_ID__c</fullName>
+    <description>Parent Vendor ID - if this is set, this Account is a subvendor of another Account.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Parent Vendor ID - if this is set, this Account is a subvendor of another Account.</inlineHelpText>
+    <label>Parent Company ID</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

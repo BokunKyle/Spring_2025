@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Questionnaire_Answers__c</fullName>
+    <description>Account provided answers from the cancellation flow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account provided answers from the cancellation flow</inlineHelpText>
+    <label>Cancellation Questionnaire Answers</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
