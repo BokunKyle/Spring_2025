@@ -506,16 +506,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Account_Region__c</fieldItem>
-                <identifier>RecordAccount_Region__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Internal_Rank__c</fieldItem>
                 <identifier>RecordInternal_Rank__cField</identifier>
             </fieldInstance>
