@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Leads</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Last_Outreach__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Lead_Notes__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Leads</label>
+</ListView>
