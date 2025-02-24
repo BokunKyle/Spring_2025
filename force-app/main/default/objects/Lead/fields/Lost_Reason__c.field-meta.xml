@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason__c</fullName>
+    <description>For reporting and analysis of why leads are marked as Lost</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Why was the lead marked as Lost?</inlineHelpText>
+    <label>Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lost_Reason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Uninterested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Staying with Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Budget Constraints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Not a Fit</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
