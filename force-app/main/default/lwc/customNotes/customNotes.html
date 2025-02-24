@@ -1,0 +1,23 @@
+<template>
+    <template if:true={isLoaded}>
+        <!-- Custom Textarea -->
+        <textarea
+            class="custom-textarea"
+            oninput={handleInput}
+            placeholder="Enter your notes here..."
+            rows = 2
+        >{notes}</textarea>
+
+        <!-- Save Button -->
+        <div class="button-container">
+            <lightning-button
+                variant="brand"
+                label="Save"
+                onclick={handleSave}
+            ></lightning-button>
+        </div>
+    </template>
+    <template if:false={isLoaded}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+</template>

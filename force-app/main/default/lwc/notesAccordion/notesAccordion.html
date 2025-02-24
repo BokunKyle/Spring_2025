@@ -1,0 +1,19 @@
+<template>
+    <div class="accordion">
+        <button class="accordion-header" onclick={toggleAccordion}>
+            <span>{title}</span>
+            <lightning-icon
+                icon-name={iconName}
+                alternative-text="Toggle Accordion"
+                class="toggle-icon"
+            ></lightning-icon>
+        </button>
+
+        <template if:true={isOpen}>
+            <div class="accordion-content">
+                <!-- Custom Notes Component -->
+                <c-custom-notes record-id={recordId} object-api-name={objectApiName}></c-custom-notes>
+            </div>
+        </template>
+    </div>
+</template>
