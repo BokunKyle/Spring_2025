@@ -116,11 +116,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>ConnectionEmailFetcher</apexClass>
+        <apexClass>CustomConvertLead</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CustomConvertLead</apexClass>
+        <apexClass>CustomConvertLeadTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -169,6 +169,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MixpanelProfileMergeFlow</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MixpanelProfileMergeFlowTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MixpanelProfileMergeTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -333,11 +341,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Company_Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Country_Region__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -746,39 +749,39 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Apex_Class__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Error_Message__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Line_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Message__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Notes__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Occurred_On__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Error_Log__c.Stack_Trace__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1387,7 +1390,7 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Error_Log__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
@@ -1399,10 +1402,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
