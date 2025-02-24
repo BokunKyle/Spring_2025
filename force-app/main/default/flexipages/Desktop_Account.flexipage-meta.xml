@@ -516,16 +516,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Country_Region__c</fieldItem>
-                <identifier>RecordCountry_Region__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Vendor_Service_Type__c</fieldItem>
                 <identifier>RecordVendor_Service_Type__cField</identifier>
             </fieldInstance>

@@ -303,10 +303,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Country_Region__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Vendor_Service_Type__c</field>
             </layoutItems>
             <layoutItems>
